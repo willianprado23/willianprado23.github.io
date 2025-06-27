@@ -2,6 +2,17 @@ html {
   font-size: 16px;
 }
 
+nav {
+  display: flex;
+}
+
+ul {
+  flow: right;
+}
+
 li {
   font-family: sans-serif;
+  font-color: #121212;
+  font-weight: bold;
 }
+
