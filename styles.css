@@ -1,22 +1,41 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #131313;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+}
+
 nav {
-    padding: auto;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-right: 20px;
 }
 
 ul {
+    display: flex;
+    gap: 20px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    font-family: sans-serif;
-    font-weight: bolder;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
     float: left;
     margin: 10px;
-
+    padding-right: 5px;
 }
 
 li a{
@@ -25,5 +44,17 @@ li a{
 }
 
 li a:hover{
-    color:blue;
+    color:#00FFAA;
+}
+
+h1 {
+    font-family: "Righteous", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.titulo {
+    position: relative;
+    top: auto;
 }
