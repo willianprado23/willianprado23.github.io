@@ -54,6 +54,10 @@ h1 {
     font-size: 4rem;
 }
 
+h1:hover {
+    color: #ff3b94;
+}
+
 .titulo {
     position: relative;
     top: auto;
