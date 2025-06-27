@@ -1,28 +1,29 @@
-html {
-  font-size: 16px;
-}
-
 body {
-  background-color: #121212;
+    background-color: #131313;
 }
 
 nav {
-  display: flex;
-  flow: right;
+    padding: auto;
+    float: right;
 }
 
 ul {
-  flow: right;
+    list-style-type: none;
+}
+
+li {
+    font-family: sans-serif;
+    font-weight: bolder;
+    float: left;
+    margin: 10px;
+
 }
 
 li a{
-  font-family: sans-serif;
-  font-color: #ffffff;
-  font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-h1 {
-  font-family: sans-serif;
-  font-color: #121212;
+li a:hover{
+    color:blue;
 }
-
