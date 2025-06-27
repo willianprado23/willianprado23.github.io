@@ -14,7 +14,7 @@ ul {
   flow: right;
 }
 
-li {
+li a{
   font-family: sans-serif;
   font-color: #ffffff;
   font-weight: bold;
